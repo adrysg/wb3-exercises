@@ -40,7 +40,6 @@ public class Main {
 
     }
 
-
     private static void displayEmployee(Employee e){
         System.out.printf("%d:%s Pay this period: %.2f\n", e.getEmployeeId(), e.getName(), e.getGrossPay());
     }
